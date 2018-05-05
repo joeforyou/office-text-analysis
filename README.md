@@ -12,4 +12,4 @@ Install `http-server` via `npm`:
 npm install http-server
 ```
 
-Start the server in the directory you cloned office-text-analysis to.
+Start the server in the directory you cloned the project to.
