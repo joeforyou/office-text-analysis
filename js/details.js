@@ -39,11 +39,6 @@ function ShowTextDetails(speakerObject) {
     $("#character-name").html(speaker);
     $("#season-number").html("<strong>Season:</strong> " + season);
     $("#season-line-count").html("<strong>Number of lines: </strong>" + addCommas(speakerObject.value));
-    if(mainCharacters.includes(speaker)){
-        $("#character-photo").html("<img width='150px' src='photos/" + speaker + ".jpg'>");
-    } else {
-        $("#character-photo").html("<img width='150px' src='photos/other.jpg'>");
-    }
 
     $("#textChart-title").html("Top ten words");
 
